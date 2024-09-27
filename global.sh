@@ -29,4 +29,4 @@ cp -ar config/backup.sh /var/backup-scripts/backup.sh
 
 chmod +x /var/backup-scripts/backup.sh
 
-/var/backup-script/backup.sh
+./var/backup-script/backup.sh
