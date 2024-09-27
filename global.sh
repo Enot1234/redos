@@ -2,15 +2,15 @@
 
 # firewall
 chmod +x config/firewall.sh
-./firewall.sh
+./config/firewall.sh
 
 # dhcp
 chmod +x config/dhcp.sh
-./dhcp.sh
+./config/dhcp.sh
 
 # ssh
 chmod +x config/ssh.sh
-./ssh.sh
+./config/ssh.sh
 
 # gre
 cp -ar /config/gre.sh /opt/gre.sh
@@ -19,7 +19,7 @@ cp -ar /config/crontab /etc/crontab
 
 # ospf
 chmod +x config/ospf.sh
-./ospf.sh
+./config/ospf.sh
 
 # backup
 mkdir /var/backup
